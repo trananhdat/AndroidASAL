@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">AndroidASAL</string>
+    <string name="app_name">A S A L</string>
+    <string name="title_activity_welcome">Map</string>
+    <string name="google_direction_api">AIzaSyD5vB09jVroDxMzFKkjt5Et_n25zvMVvLE</string>
 </resources>
