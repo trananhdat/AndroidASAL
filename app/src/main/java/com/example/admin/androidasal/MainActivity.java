@@ -14,6 +14,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.RelativeLayout;
 
+import com.example.admin.androidasal.Common.Common;
 import com.example.admin.androidasal.Model.User2;
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
@@ -60,7 +61,7 @@ public class MainActivity extends AppCompatActivity {
         //Init Firebase
         auth = FirebaseAuth.getInstance();
         db = FirebaseDatabase.getInstance();
-        users = db.getReference("Users2");//Change name of References to "Users2", old name is "Users"
+        users = db.getReference(Common.users2_tbl);//Change name of References to "Users2", old name is "Users"
 
 
         //Init View
